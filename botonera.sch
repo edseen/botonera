@@ -1,0 +1,374 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:relays
+LIBS:edseen_relay
+LIBS:botonera-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Screw_Terminal_1x02 J1
+U 1 1 598F947B
+P 3200 3450
+F 0 "J1" H 3200 3700 50  0000 C TNN
+F 1 "VCC" V 3050 3450 50  0000 C TNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 3200 3225 50  0001 C CNN
+F 3 "" H 3175 3450 50  0001 C CNN
+	1    3200 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Screw_Terminal_1x02 J2
+U 1 1 598F9523
+P 3750 2900
+F 0 "J2" H 3750 3150 50  0000 C TNN
+F 1 "RST" V 3600 2900 50  0000 C TNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 3750 2675 50  0001 C CNN
+F 3 "" H 3725 2900 50  0001 C CNN
+	1    3750 2900
+	0    -1   1    0   
+$EndComp
+$Comp
+L Screw_Terminal_1x02 J3
+U 1 1 598F95E9
+P 5550 2850
+F 0 "J3" H 5550 3100 50  0000 C TNN
+F 1 "BUTTON1" V 5400 2850 50  0000 C TNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 5550 2625 50  0001 C CNN
+F 3 "" H 5525 2850 50  0001 C CNN
+	1    5550 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Screw_Terminal_1x02 J4
+U 1 1 598F967E
+P 5550 4050
+F 0 "J4" H 5550 4300 50  0000 C TNN
+F 1 "BUTTON2" V 5400 4050 50  0000 C TNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 5550 3825 50  0001 C CNN
+F 3 "" H 5525 4050 50  0001 C CNN
+	1    5550 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Screw_Terminal_1x02 J5
+U 1 1 598F96FD
+P 7800 3350
+F 0 "J5" H 7800 3600 50  0000 C TNN
+F 1 "LIGHT1" V 7650 3350 50  0000 C TNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 7800 3125 50  0001 C CNN
+F 3 "" H 7775 3350 50  0001 C CNN
+	1    7800 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Screw_Terminal_1x02 J6
+U 1 1 598F9791
+P 7800 4550
+F 0 "J6" H 7800 4800 50  0000 C TNN
+F 1 "LIGHT2" V 7650 4550 50  0000 C TNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 7800 4325 50  0001 C CNN
+F 3 "" H 7775 4550 50  0001 C CNN
+	1    7800 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 3350 3650 3350
+Wire Wire Line
+	3650 3350 3650 3100
+Wire Wire Line
+	3400 3550 3400 5450
+$Comp
+L D D1
+U 1 1 599E7464
+P 5050 3050
+F 0 "D1" H 5050 3150 50  0000 C CNN
+F 1 "D_PSH_PLY1" H 5050 2950 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 5050 3050 50  0001 C CNN
+F 3 "" H 5050 3050 50  0001 C CNN
+	1    5050 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D2
+U 1 1 599E7499
+P 5050 4250
+F 0 "D2" H 5050 4350 50  0000 C CNN
+F 1 "D_PSH_PLY2" H 5050 4150 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 5050 4250 50  0001 C CNN
+F 3 "" H 5050 4250 50  0001 C CNN
+	1    5050 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5200 4250 5450 4250
+Wire Wire Line
+	5200 3050 5450 3050
+Wire Wire Line
+	4900 3050 4900 4250
+Wire Wire Line
+	4100 2250 4100 3350
+Wire Wire Line
+	5800 3550 7700 3550
+Wire Wire Line
+	5800 3550 5800 3050
+Connection ~ 5800 3050
+Wire Wire Line
+	5800 4750 7700 4750
+Wire Wire Line
+	5800 4250 5800 4750
+Connection ~ 5800 4250
+Wire Wire Line
+	3400 5350 8150 5350
+Wire Wire Line
+	6200 3700 6850 3700
+Wire Wire Line
+	6850 3700 6850 5350
+$Comp
+L D D3
+U 1 1 599EA166
+P 7150 3700
+F 0 "D3" H 7150 3800 50  0000 C CNN
+F 1 "D_LED_PLY1" H 7150 3600 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 7150 3700 50  0001 C CNN
+F 3 "" H 7150 3700 50  0001 C CNN
+	1    7150 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D4
+U 1 1 599EA1F3
+P 7150 4900
+F 0 "D4" H 7150 5000 50  0000 C CNN
+F 1 "D_LED_PLY2" H 7150 4800 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 7150 4900 50  0001 C CNN
+F 3 "" H 7150 4900 50  0001 C CNN
+	1    7150 4900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7150 3550
+Connection ~ 7150 4750
+Wire Wire Line
+	7150 3850 7150 4000
+Wire Wire Line
+	7150 4000 7400 4000
+Wire Wire Line
+	7400 4000 7400 5200
+Wire Wire Line
+	7150 5050 7150 5200
+Connection ~ 7150 5200
+Wire Wire Line
+	7900 5350 7900 4750
+Wire Wire Line
+	7900 3550 7900 3800
+Wire Wire Line
+	7900 3800 8150 3800
+Wire Wire Line
+	8150 3800 8150 5350
+Connection ~ 7900 5350
+Connection ~ 6850 5350
+Wire Wire Line
+	6200 3350 6200 3700
+$Comp
+L GND #PWR01
+U 1 1 59B60C20
+P 3400 5450
+F 0 "#PWR01" H 3400 5200 50  0001 C CNN
+F 1 "GND" H 3400 5300 50  0000 C CNN
+F 2 "" H 3400 5450 50  0000 C CNN
+F 3 "" H 3400 5450 50  0000 C CNN
+	1    3400 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 3100 3850 3800
+Wire Wire Line
+	4100 3350 3850 3350
+Wire Wire Line
+	3850 3800 4050 3800
+Connection ~ 3850 3350
+Wire Wire Line
+	4650 3700 4750 3700
+Wire Wire Line
+	4750 3700 4750 5200
+Wire Wire Line
+	4750 4200 4650 4200
+Wire Wire Line
+	4650 3900 4900 3900
+Connection ~ 4900 3900
+Wire Wire Line
+	4050 4200 3400 4200
+Connection ~ 3400 4200
+Connection ~ 4750 4200
+Wire Wire Line
+	4750 5200 7400 5200
+Wire Wire Line
+	5900 3050 5650 3050
+Wire Wire Line
+	5900 2650 5900 3050
+Wire Wire Line
+	5900 2650 6200 2650
+Wire Wire Line
+	6200 2650 6200 2750
+Wire Wire Line
+	6600 2750 6600 2250
+Connection ~ 6600 2250
+Wire Wire Line
+	4100 2250 6950 2250
+Wire Wire Line
+	6700 3350 6700 3550
+Connection ~ 6700 3550
+Wire Wire Line
+	5650 4250 5900 4250
+Wire Wire Line
+	5900 4250 5900 3900
+Wire Wire Line
+	5900 3900 6200 3900
+Wire Wire Line
+	6200 3900 6200 4000
+Wire Wire Line
+	6600 4000 6600 3850
+Wire Wire Line
+	6600 3850 6950 3850
+Wire Wire Line
+	6950 3850 6950 2250
+Wire Wire Line
+	6700 4600 6700 4750
+Connection ~ 6700 4750
+Wire Wire Line
+	6200 4600 6200 5350
+Connection ~ 6200 5350
+Connection ~ 3400 5350
+$Comp
+L MOUNTING-HOLE M1
+U 1 1 59D7123E
+P 7850 2450
+F 0 "M1" H 7950 2450 40  0001 C CNN
+F 1 "MOUNTING-HOLE" H 7850 2350 40  0001 C CNN
+F 2 "Connect:1pin" H 7850 2200 60  0001 C CNN
+F 3 "" H 7850 2200 60  0000 C CNN
+	1    7850 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNTING-HOLE M2
+U 1 1 59D71279
+P 8200 2450
+F 0 "M2" H 8300 2450 40  0001 C CNN
+F 1 "MOUNTING-HOLE" H 8200 2350 40  0001 C CNN
+F 2 "Connect:1pin" H 8200 2200 60  0001 C CNN
+F 3 "" H 8200 2200 60  0000 C CNN
+	1    8200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNTING-HOLE M4
+U 1 1 59D712C1
+P 8900 2450
+F 0 "M4" H 9000 2450 40  0001 C CNN
+F 1 "MOUNTING-HOLE" H 8900 2350 40  0001 C CNN
+F 2 "Connect:1pin" H 8900 2200 60  0001 C CNN
+F 3 "" H 8900 2200 60  0000 C CNN
+	1    8900 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNTING-HOLE M3
+U 1 1 59D712FC
+P 8550 2450
+F 0 "M3" H 8650 2450 40  0001 C CNN
+F 1 "MOUNTING-HOLE" H 8550 2350 40  0001 C CNN
+F 2 "Connect:1pin" H 8550 2200 60  0001 C CNN
+F 3 "" H 8550 2200 60  0000 C CNN
+	1    8550 2450
+	1    0    0    -1  
+$EndComp
+Text Label 3500 3350 1    60   ~ 0
+Vcc1
+Text Label 3850 3550 1    60   ~ 0
+Vcc2
+Text Label 3400 4800 0    60   ~ 0
+GND
+Text Label 7500 4750 1    60   ~ 0
+LIGHT2
+Text Label 7450 3550 1    60   ~ 0
+LIGHT1
+Text Label 5300 3050 3    60   ~ 0
+BUTTON1_1
+Text Label 5300 4250 3    60   ~ 0
+BUTTON2_1
+Text Label 5850 3050 1    60   ~ 0
+BUTTON1_2
+Text Label 5850 4250 1    60   ~ 0
+BUTTON2_2
+$Comp
+L SUNHOLD_RAS_Form_C K2
+U 1 1 5A299B05
+P 6400 3050
+F 0 "K2" H 6850 3200 50  0000 L CNN
+F 1 "SUNHOLD_RAS_Form_C" H 6850 3100 50  0000 L CNN
+F 2 "edseen_relay:Relay_SUNHOLD_RAS_Series_Form_C" H 7850 3000 50  0001 C CNN
+F 3 "" H 6400 3050 50  0001 C CNN
+	1    6400 3050
+	1    0    0    1   
+$EndComp
+$Comp
+L SUNHOLD_RAS_Form_C K3
+U 1 1 5A299B66
+P 6400 4300
+F 0 "K3" H 6850 4450 50  0000 L CNN
+F 1 "SUNHOLD_RAS_Form_C" H 6850 4350 50  0000 L CNN
+F 2 "edseen_relay:Relay_SUNHOLD_RAS_Series_Form_C" H 7850 4250 50  0001 C CNN
+F 3 "" H 6400 4300 50  0001 C CNN
+	1    6400 4300
+	1    0    0    1   
+$EndComp
+$Comp
+L SUNHOLD_RAS_Form_C K1
+U 1 1 5A299C06
+P 4350 4000
+F 0 "K1" H 4800 4150 50  0000 L CNN
+F 1 "SUNHOLD_RAS_Form_C" H 4800 4050 50  0000 L CNN
+F 2 "edseen_relay:Relay_SUNHOLD_RAS_Series_Form_C" H 5800 3950 50  0001 C CNN
+F 3 "" H 4350 4000 50  0001 C CNN
+	1    4350 4000
+	0    1    -1   0   
+$EndComp
+$EndSCHEMATC
