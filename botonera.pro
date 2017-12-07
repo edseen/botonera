@@ -1,4 +1,4 @@
-update=jue 07 dic 2017 13:43:22 CST
+update=jue 07 dic 2017 15:42:23 CST
 version=1
 last_client=kicad
 [pcbnew]
@@ -56,5 +56,4 @@ LibName24=opto
 LibName25=atmel
 LibName26=contrib
 LibName27=valves
-LibName28=library/relays
-LibName29=/home/edgardo/workspace/kicad/kicad_library/edseen_relay
+LibName28=/home/edgardo/workspace/kicad/kicad_library/edseen_relay
