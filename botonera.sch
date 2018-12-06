@@ -1,35 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:relays
-LIBS:edseen_relay
+EESchema Schematic File Version 4
 LIBS:botonera-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -43,148 +14,28 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Screw_Terminal_1x02 J1
-U 1 1 598F947B
-P 3200 3450
-F 0 "J1" H 3200 3700 50  0000 C TNN
-F 1 "VCC" V 3050 3450 50  0000 C TNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 3200 3225 50  0001 C CNN
-F 3 "" H 3175 3450 50  0001 C CNN
-	1    3200 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Screw_Terminal_1x02 J2
-U 1 1 598F9523
-P 3750 2900
-F 0 "J2" H 3750 3150 50  0000 C TNN
-F 1 "RST" V 3600 2900 50  0000 C TNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 3750 2675 50  0001 C CNN
-F 3 "" H 3725 2900 50  0001 C CNN
-	1    3750 2900
-	0    -1   1    0   
-$EndComp
-$Comp
-L Screw_Terminal_1x02 J3
-U 1 1 598F95E9
-P 5550 2850
-F 0 "J3" H 5550 3100 50  0000 C TNN
-F 1 "BUTTON1" V 5400 2850 50  0000 C TNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 5550 2625 50  0001 C CNN
-F 3 "" H 5525 2850 50  0001 C CNN
-	1    5550 2850
-	0    1    1    0   
-$EndComp
-$Comp
-L Screw_Terminal_1x02 J4
-U 1 1 598F967E
-P 5550 4050
-F 0 "J4" H 5550 4300 50  0000 C TNN
-F 1 "BUTTON2" V 5400 4050 50  0000 C TNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 5550 3825 50  0001 C CNN
-F 3 "" H 5525 4050 50  0001 C CNN
-	1    5550 4050
-	0    1    1    0   
-$EndComp
-$Comp
-L Screw_Terminal_1x02 J5
-U 1 1 598F96FD
-P 7800 3350
-F 0 "J5" H 7800 3600 50  0000 C TNN
-F 1 "LIGHT1" V 7650 3350 50  0000 C TNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 7800 3125 50  0001 C CNN
-F 3 "" H 7775 3350 50  0001 C CNN
-	1    7800 3350
-	0    1    1    0   
-$EndComp
-$Comp
-L Screw_Terminal_1x02 J6
-U 1 1 598F9791
-P 7800 4550
-F 0 "J6" H 7800 4800 50  0000 C TNN
-F 1 "LIGHT2" V 7650 4550 50  0000 C TNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 7800 4325 50  0001 C CNN
-F 3 "" H 7775 4550 50  0001 C CNN
-	1    7800 4550
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3400 3350 3650 3350
 Wire Wire Line
 	3650 3350 3650 3100
 Wire Wire Line
-	3400 3550 3400 5450
-$Comp
-L D D1
-U 1 1 599E7464
-P 5050 3050
-F 0 "D1" H 5050 3150 50  0000 C CNN
-F 1 "D_PSH_PLY1" H 5050 2950 50  0000 C CNN
-F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 5050 3050 50  0001 C CNN
-F 3 "" H 5050 3050 50  0001 C CNN
-	1    5050 3050
-	-1   0    0    1   
-$EndComp
-$Comp
-L D D2
-U 1 1 599E7499
-P 5050 4250
-F 0 "D2" H 5050 4350 50  0000 C CNN
-F 1 "D_PSH_PLY2" H 5050 4150 50  0000 C CNN
-F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 5050 4250 50  0001 C CNN
-F 3 "" H 5050 4250 50  0001 C CNN
-	1    5050 4250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5200 4250 5450 4250
-Wire Wire Line
-	5200 3050 5450 3050
-Wire Wire Line
-	4900 3050 4900 4250
+	4900 3050 4900 3900
 Wire Wire Line
 	4100 2250 4100 3350
 Wire Wire Line
-	5800 3550 7700 3550
+	5800 3550 6700 3550
 Wire Wire Line
 	5800 3550 5800 3050
 Connection ~ 5800 3050
 Wire Wire Line
-	5800 4750 7700 4750
+	5800 4750 6700 4750
 Wire Wire Line
 	5800 4250 5800 4750
 Connection ~ 5800 4250
 Wire Wire Line
-	3400 5350 8150 5350
-Wire Wire Line
 	6200 3700 6850 3700
 Wire Wire Line
 	6850 3700 6850 5350
-$Comp
-L D D3
-U 1 1 599EA166
-P 7150 3700
-F 0 "D3" H 7150 3800 50  0000 C CNN
-F 1 "D_LED_PLY1" H 7150 3600 50  0000 C CNN
-F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 7150 3700 50  0001 C CNN
-F 3 "" H 7150 3700 50  0001 C CNN
-	1    7150 3700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L D D4
-U 1 1 599EA1F3
-P 7150 4900
-F 0 "D4" H 7150 5000 50  0000 C CNN
-F 1 "D_LED_PLY2" H 7150 4800 50  0000 C CNN
-F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 7150 4900 50  0001 C CNN
-F 3 "" H 7150 4900 50  0001 C CNN
-	1    7150 4900
-	0    -1   -1   0   
-$EndComp
-Connection ~ 7150 3550
-Connection ~ 7150 4750
 Wire Wire Line
 	7150 3850 7150 4000
 Wire Wire Line
@@ -206,28 +57,14 @@ Connection ~ 7900 5350
 Connection ~ 6850 5350
 Wire Wire Line
 	6200 3350 6200 3700
-$Comp
-L GND #PWR01
-U 1 1 59B60C20
-P 3400 5450
-F 0 "#PWR01" H 3400 5200 50  0001 C CNN
-F 1 "GND" H 3400 5300 50  0000 C CNN
-F 2 "" H 3400 5450 50  0000 C CNN
-F 3 "" H 3400 5450 50  0000 C CNN
-	1    3400 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3850 3100 3850 3800
 Wire Wire Line
 	4100 3350 3850 3350
 Wire Wire Line
 	3850 3800 4050 3800
-Connection ~ 3850 3350
 Wire Wire Line
 	4650 3700 4750 3700
 Wire Wire Line
-	4750 3700 4750 5200
+	4750 3700 4750 4200
 Wire Wire Line
 	4750 4200 4650 4200
 Wire Wire Line
@@ -235,12 +72,11 @@ Wire Wire Line
 Connection ~ 4900 3900
 Wire Wire Line
 	4050 4200 3400 4200
-Connection ~ 3400 4200
 Connection ~ 4750 4200
 Wire Wire Line
-	4750 5200 7400 5200
+	4750 5200 7150 5200
 Wire Wire Line
-	5900 3050 5650 3050
+	5900 3050 5800 3050
 Wire Wire Line
 	5900 2650 5900 3050
 Wire Wire Line
@@ -251,12 +87,10 @@ Wire Wire Line
 	6600 2750 6600 2250
 Connection ~ 6600 2250
 Wire Wire Line
-	4100 2250 6950 2250
+	4100 2250 6600 2250
 Wire Wire Line
 	6700 3350 6700 3550
 Connection ~ 6700 3550
-Wire Wire Line
-	5650 4250 5900 4250
 Wire Wire Line
 	5900 4250 5900 3900
 Wire Wire Line
@@ -274,101 +108,306 @@ Wire Wire Line
 Connection ~ 6700 4750
 Wire Wire Line
 	6200 4600 6200 5350
-Connection ~ 6200 5350
-Connection ~ 3400 5350
-$Comp
-L MOUNTING-HOLE M1
-U 1 1 59D7123E
-P 7850 2450
-F 0 "M1" H 7950 2450 40  0001 C CNN
-F 1 "MOUNTING-HOLE" H 7850 2350 40  0001 C CNN
-F 2 "Connect:1pin" H 7850 2200 60  0001 C CNN
-F 3 "" H 7850 2200 60  0000 C CNN
-	1    7850 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L MOUNTING-HOLE M2
-U 1 1 59D71279
-P 8200 2450
-F 0 "M2" H 8300 2450 40  0001 C CNN
-F 1 "MOUNTING-HOLE" H 8200 2350 40  0001 C CNN
-F 2 "Connect:1pin" H 8200 2200 60  0001 C CNN
-F 3 "" H 8200 2200 60  0000 C CNN
-	1    8200 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L MOUNTING-HOLE M4
-U 1 1 59D712C1
-P 8900 2450
-F 0 "M4" H 9000 2450 40  0001 C CNN
-F 1 "MOUNTING-HOLE" H 8900 2350 40  0001 C CNN
-F 2 "Connect:1pin" H 8900 2200 60  0001 C CNN
-F 3 "" H 8900 2200 60  0000 C CNN
-	1    8900 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L MOUNTING-HOLE M3
-U 1 1 59D712FC
-P 8550 2450
-F 0 "M3" H 8650 2450 40  0001 C CNN
-F 1 "MOUNTING-HOLE" H 8550 2350 40  0001 C CNN
-F 2 "Connect:1pin" H 8550 2200 60  0001 C CNN
-F 3 "" H 8550 2200 60  0000 C CNN
-	1    8550 2450
-	1    0    0    -1  
-$EndComp
 Text Label 3500 3350 1    60   ~ 0
 Vcc1
 Text Label 3850 3550 1    60   ~ 0
 Vcc2
-Text Label 3400 4800 0    60   ~ 0
+Text Label 3400 4750 0    60   ~ 0
 GND
 Text Label 7500 4750 1    60   ~ 0
 LIGHT2
-Text Label 7450 3550 1    60   ~ 0
+Text Label 7450 3550 2    60   ~ 0
 LIGHT1
 Text Label 5300 3050 3    60   ~ 0
 BUTTON1_1
 Text Label 5300 4250 3    60   ~ 0
 BUTTON2_1
-Text Label 5850 3050 1    60   ~ 0
+Text Label 5800 3100 3    60   ~ 0
 BUTTON1_2
-Text Label 5850 4250 1    60   ~ 0
+Text Label 6100 4750 2    60   ~ 0
 BUTTON2_2
+Wire Wire Line
+	5800 4250 5900 4250
+Wire Wire Line
+	7150 5200 7400 5200
+Wire Wire Line
+	7900 5350 8150 5350
+Wire Wire Line
+	6850 5350 7900 5350
+Wire Wire Line
+	3850 3350 3850 3800
+Wire Wire Line
+	4900 3900 4900 4250
+Wire Wire Line
+	4750 4200 4750 5200
+Wire Wire Line
+	6600 2250 6950 2250
+Wire Wire Line
+	6200 5350 6850 5350
 $Comp
-L SUNHOLD_RAS_Form_C K2
-U 1 1 5A299B05
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 5C039227
+P 3200 3450
+F 0 "J1" H 3120 3125 50  0000 C CNN
+F 1 "VCC" H 3120 3216 50  0000 C CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" H 3200 3450 50  0001 C CNN
+F 3 "~" H 3200 3450 50  0001 C CNN
+	1    3200 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3400 3450 3400 4200
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 5C03D976
+P 3700 2900
+F 0 "J2" V 3666 2712 50  0000 R CNN
+F 1 "RST" V 3575 2712 50  0000 R CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" H 3700 2900 50  0001 C CNN
+F 3 "~" H 3700 2900 50  0001 C CNN
+	1    3700 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3650 3100 3700 3100
+$Comp
+L Connector:Screw_Terminal_01x02 J3
+U 1 1 5C040249
+P 5500 2850
+F 0 "J3" V 5466 2662 50  0000 R CNN
+F 1 "BUTTON1" V 5375 2662 50  0000 R CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" H 5500 2850 50  0001 C CNN
+F 3 "~" H 5500 2850 50  0001 C CNN
+	1    5500 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 3050 5800 3050
+Wire Wire Line
+	5200 3050 5500 3050
+$Comp
+L Connector:Screw_Terminal_01x02 J4
+U 1 1 5C042BCA
+P 5600 4050
+F 0 "J4" V 5566 3862 50  0000 R CNN
+F 1 "BUTTON2" V 5475 3862 50  0000 R CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" H 5600 4050 50  0001 C CNN
+F 3 "~" H 5600 4050 50  0001 C CNN
+	1    5600 4050
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	5600 4250 5800 4250
+$Comp
+L Connector:Screw_Terminal_01x02 J6
+U 1 1 5C0456EB
+P 7850 4550
+F 0 "J6" V 7816 4362 50  0000 R CNN
+F 1 "LIGHT2" V 7725 4362 50  0000 R CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" H 7850 4550 50  0001 C CNN
+F 3 "~" H 7850 4550 50  0001 C CNN
+	1    7850 4550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J5
+U 1 1 5C04575D
+P 7750 3350
+F 0 "J5" V 7716 3162 50  0000 R CNN
+F 1 "LIGHT1" V 7625 3162 50  0000 R CNN
+F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" H 7750 3350 50  0001 C CNN
+F 3 "~" H 7750 3350 50  0001 C CNN
+	1    7750 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7850 4750 7900 4750
+Wire Wire Line
+	7850 3550 7900 3550
+$Comp
+L Diode:1N4004 D4
+U 1 1 5C05216B
+P 7150 4900
+F 0 "D4" V 7196 4821 50  0000 R CNN
+F 1 "D_LED_PLY2" V 7105 4821 50  0000 R CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 7150 4725 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 7150 4900 50  0001 C CNN
+	1    7150 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4004 D3
+U 1 1 5C0521DF
+P 7150 3700
+F 0 "D3" V 7196 3621 50  0000 R CNN
+F 1 "D_LED_PLY1" V 7105 3621 50  0000 R CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 7150 3525 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 7150 3700 50  0001 C CNN
+	1    7150 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4004 D1
+U 1 1 5C0525C7
+P 5050 3050
+F 0 "D1" H 5050 2834 50  0000 C CNN
+F 1 "D_PSH_PLY1" H 5050 2925 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5050 2875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 5050 3050 50  0001 C CNN
+	1    5050 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4004 D2
+U 1 1 5C052637
+P 5050 4250
+F 0 "D2" H 5050 4034 50  0000 C CNN
+F 1 "D_PSH_PLY2" H 5050 4125 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5050 4075 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 5050 4250 50  0001 C CNN
+	1    5050 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6700 3550 7150 3550
+Connection ~ 7150 3550
+Wire Wire Line
+	7150 3550 7750 3550
+Wire Wire Line
+	6700 4750 7150 4750
+Connection ~ 7150 4750
+Wire Wire Line
+	3850 3350 3850 3100
+Wire Wire Line
+	3850 3100 3800 3100
+Connection ~ 3850 3350
+$Comp
+L edseen_relay:SUNHOLD_RAS_Form_C K1
+U 1 1 5C064CBC
+P 4350 4000
+F 0 "K1" V 4917 4000 50  0000 C CNN
+F 1 "MAIN" V 4826 4000 50  0000 C CNN
+F 2 "edseen_relay:Relay_SUNHOLD_RAS_Series_Form_C" H 5800 3950 50  0001 C CNN
+F 3 "http://www.sunhold.com/upload/prd1/118-3.pdf" H 4350 4000 50  0001 C CNN
+	1    4350 4000
+	0    1    -1   0   
+$EndComp
+$Comp
+L edseen_relay:SUNHOLD_RAS_Form_C K2
+U 1 1 5C065D82
 P 6400 3050
-F 0 "K2" H 6850 3200 50  0000 L CNN
-F 1 "SUNHOLD_RAS_Form_C" H 6850 3100 50  0000 L CNN
+F 0 "K2" H 5971 3004 50  0000 R CNN
+F 1 "PLY1" H 5971 3095 50  0000 R CNN
 F 2 "edseen_relay:Relay_SUNHOLD_RAS_Series_Form_C" H 7850 3000 50  0001 C CNN
-F 3 "" H 6400 3050 50  0001 C CNN
+F 3 "http://www.sunhold.com/upload/prd1/118-3.pdf" H 6400 3050 50  0001 C CNN
 	1    6400 3050
 	1    0    0    1   
 $EndComp
 $Comp
-L SUNHOLD_RAS_Form_C K3
-U 1 1 5A299B66
+L edseen_relay:SUNHOLD_RAS_Form_C K3
+U 1 1 5C0663D1
 P 6400 4300
-F 0 "K3" H 6850 4450 50  0000 L CNN
-F 1 "SUNHOLD_RAS_Form_C" H 6850 4350 50  0000 L CNN
+F 0 "K3" H 5971 4254 50  0000 R CNN
+F 1 "PLY2" H 5971 4345 50  0000 R CNN
 F 2 "edseen_relay:Relay_SUNHOLD_RAS_Series_Form_C" H 7850 4250 50  0001 C CNN
-F 3 "" H 6400 4300 50  0001 C CNN
+F 3 "http://www.sunhold.com/upload/prd1/118-3.pdf" H 6400 4300 50  0001 C CNN
 	1    6400 4300
 	1    0    0    1   
 $EndComp
+NoConn ~ 6500 4600
+NoConn ~ 6500 3350
+Wire Wire Line
+	3400 4200 3400 5200
+Connection ~ 3400 4200
+Wire Wire Line
+	4750 5200 3400 5200
+Connection ~ 4750 5200
+Connection ~ 3400 5200
+Wire Wire Line
+	3400 5200 3400 5500
+Wire Wire Line
+	3400 3350 3400 2900
+Connection ~ 3400 3350
 $Comp
-L SUNHOLD_RAS_Form_C K1
-U 1 1 5A299C06
-P 4350 4000
-F 0 "K1" H 4800 4150 50  0000 L CNN
-F 1 "SUNHOLD_RAS_Form_C" H 4800 4050 50  0000 L CNN
-F 2 "edseen_relay:Relay_SUNHOLD_RAS_Series_Form_C" H 5800 3950 50  0001 C CNN
-F 3 "" H 4350 4000 50  0001 C CNN
-	1    4350 4000
-	0    1    -1   0   
+L power:PWR_FLAG #FLG01
+U 1 1 5C062016
+P 2100 2600
+F 0 "#FLG01" H 2100 2675 50  0001 C CNN
+F 1 "PWR_FLAG" H 2100 2774 50  0000 C CNN
+F 2 "" H 2100 2600 50  0001 C CNN
+F 3 "~" H 2100 2600 50  0001 C CNN
+	1    2100 2600
+	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5C062289
+P 3400 5500
+F 0 "#PWR04" H 3400 5250 50  0001 C CNN
+F 1 "GND" H 3405 5327 50  0000 C CNN
+F 2 "" H 3400 5500 50  0001 C CNN
+F 3 "" H 3400 5500 50  0001 C CNN
+	1    3400 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR03
+U 1 1 5C063E5E
+P 3400 2900
+F 0 "#PWR03" H 3400 2750 50  0001 C CNN
+F 1 "+5V" H 3415 3073 50  0000 C CNN
+F 2 "" H 3400 2900 50  0001 C CNN
+F 3 "" H 3400 2900 50  0001 C CNN
+	1    3400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR01
+U 1 1 5C063EA7
+P 2400 2600
+F 0 "#PWR01" H 2400 2450 50  0001 C CNN
+F 1 "+5V" H 2415 2773 50  0000 C CNN
+F 2 "" H 2400 2600 50  0001 C CNN
+F 3 "" H 2400 2600 50  0001 C CNN
+	1    2400 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2600 2100 2700
+Wire Wire Line
+	2100 2700 2400 2700
+Wire Wire Line
+	2400 2700 2400 2600
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5C065770
+P 2100 3000
+F 0 "#FLG02" H 2100 3075 50  0001 C CNN
+F 1 "PWR_FLAG" H 2100 3174 50  0000 C CNN
+F 2 "" H 2100 3000 50  0001 C CNN
+F 3 "~" H 2100 3000 50  0001 C CNN
+	1    2100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5C065C66
+P 2400 3100
+F 0 "#PWR02" H 2400 2850 50  0001 C CNN
+F 1 "GND" H 2405 2927 50  0000 C CNN
+F 2 "" H 2400 3100 50  0001 C CNN
+F 3 "" H 2400 3100 50  0001 C CNN
+	1    2400 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 3000 2100 3050
+Wire Wire Line
+	2100 3050 2400 3050
+Wire Wire Line
+	2400 3050 2400 3100
+Wire Wire Line
+	5200 4250 5500 4250
+Wire Wire Line
+	7150 4750 7750 4750
 $EndSCHEMATC

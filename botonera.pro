@@ -1,4 +1,4 @@
-update=jue 07 dic 2017 15:42:23 CST
+update=Sat 01 Dec 2018 11:13:09 PM CST
 version=1
 last_client=kicad
 [pcbnew]
@@ -28,32 +28,3 @@ version=1
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
-LibName1=power
-LibName2=device
-LibName3=transistors
-LibName4=regul
-LibName5=74xx
-LibName6=cmos4000
-LibName7=adc-dac
-LibName8=memory
-LibName9=xilinx
-LibName10=microcontrollers
-LibName11=dsp
-LibName12=microchip
-LibName13=analog_switches
-LibName14=motorola
-LibName15=texas
-LibName16=intel
-LibName17=audio
-LibName18=interface
-LibName19=digital-audio
-LibName20=philips
-LibName21=display
-LibName22=cypress
-LibName23=siliconi
-LibName24=opto
-LibName25=atmel
-LibName26=contrib
-LibName27=valves
-LibName28=/home/edgardo/workspace/kicad/kicad_library/edseen_relay
